@@ -12,10 +12,11 @@
 		6A340FD42508D45500A3B168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A340FD32508D45500A3B168 /* ViewController.swift */; };
 		6A340FD72508D45500A3B168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A340FD52508D45500A3B168 /* Main.storyboard */; };
 		6A340FD92508D45C00A3B168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A340FD82508D45C00A3B168 /* Assets.xcassets */; };
-		6A340FDC2508D45C00A3B168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A340FDA2508D45C00A3B168 /* LaunchScreen.storyboard */; };
 		6A340FE42508ED3000A3B168 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A340FE32508ED3000A3B168 /* Constants.swift */; };
 		6A340FE62508F11600A3B168 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A340FE52508F11600A3B168 /* Video.swift */; };
 		6A340FE82508F1C500A3B168 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A340FE72508F1C500A3B168 /* Model.swift */; };
+		6ACB81BF250A3EEB00A03439 /* ConstantEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB81BE250A3EEB00A03439 /* ConstantEdit.swift */; };
+		6ACB81C1250A652D00A03439 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACB81C0250A652D00A03439 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +26,12 @@
 		6A340FD32508D45500A3B168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A340FD62508D45500A3B168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A340FD82508D45C00A3B168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6A340FDB2508D45C00A3B168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A340FDD2508D45C00A3B168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A340FE32508ED3000A3B168 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6A340FE52508F11600A3B168 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		6A340FE72508F1C500A3B168 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6ACB81BE250A3EEB00A03439 /* ConstantEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantEdit.swift; sourceTree = "<group>"; };
+		6ACB81C0250A652D00A03439 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +69,12 @@
 				6A340FD32508D45500A3B168 /* ViewController.swift */,
 				6A340FD52508D45500A3B168 /* Main.storyboard */,
 				6A340FD82508D45C00A3B168 /* Assets.xcassets */,
-				6A340FDA2508D45C00A3B168 /* LaunchScreen.storyboard */,
 				6A340FDD2508D45C00A3B168 /* Info.plist */,
 				6A340FE32508ED3000A3B168 /* Constants.swift */,
 				6A340FE52508F11600A3B168 /* Video.swift */,
 				6A340FE72508F1C500A3B168 /* Model.swift */,
+				6ACB81BE250A3EEB00A03439 /* ConstantEdit.swift */,
+				6ACB81C0250A652D00A03439 /* Response.swift */,
 			);
 			path = youtubeAPi;
 			sourceTree = "<group>";
@@ -134,7 +137,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A340FDC2508D45C00A3B168 /* LaunchScreen.storyboard in Resources */,
 				6A340FD92508D45C00A3B168 /* Assets.xcassets in Resources */,
 				6A340FD72508D45500A3B168 /* Main.storyboard in Resources */,
 			);
@@ -147,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ACB81C1250A652D00A03439 /* Response.swift in Sources */,
 				6A340FD42508D45500A3B168 /* ViewController.swift in Sources */,
 				6A340FE82508F1C500A3B168 /* Model.swift in Sources */,
+				6ACB81BF250A3EEB00A03439 /* ConstantEdit.swift in Sources */,
 				6A340FD02508D45500A3B168 /* AppDelegate.swift in Sources */,
 				6A340FD22508D45500A3B168 /* SceneDelegate.swift in Sources */,
 				6A340FE42508ED3000A3B168 /* Constants.swift in Sources */,
@@ -165,14 +169,6 @@
 				6A340FD62508D45500A3B168 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6A340FDA2508D45C00A3B168 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6A340FDB2508D45C00A3B168 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -228,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -282,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -299,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Y2HX26756;
 				INFOPLIST_FILE = youtubeAPi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Y2HX26756;
 				INFOPLIST_FILE = youtubeAPi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
